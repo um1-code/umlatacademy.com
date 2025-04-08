@@ -1,0 +1,120 @@
+:root{
+  --primary-color: #f9f9f9;
+  --secondary-color: #007bff;
+  --primary-background-color: white;
+  --secondary-background-color: #eef5ff;
+  --secondary-background-color-hover: #0056b3 ;
+  --primary-text-color: #333 ;
+  --secondary-text-color: #007bff;
+  --accent-text-color:red;
+  --submit-hover-color:#6baef6;
+  --box-shadow: rgba(0,0,0,0.1);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: var(--primary-text-color);
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: var(--primary-background-color);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px var(--box-shadow);
+}
+
+h1 {
+  text-align: center;
+  color:var(--secondary-text-color);
+}
+
+.quiz-section {
+  margin-top: 20px;
+}
+
+.quiz-question {
+  margin-bottom: 15px;
+}
+
+.quiz-question label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.quiz-question input[type="radio"] {
+  margin-right: 10px;
+}
+
+#timer {
+  font-size: 20px;
+  font-weight: bold;
+  color:var(--accent-text-color) ;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  background-color: var(--secondary-color);
+  color: var(--primary-background-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background-color: var(--submit-hover-color) ;
+}
+
+#quiz-result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.correct-answer {
+  color: green;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.wrong-answer {
+  color: red;
+  display: inline-block;
+
+}
+
+.final-results {
+  display: none;
+  text-align: center;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: var(--primary-background-color);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+  
+.back-btn:hover {
+  background-color: var(--secondary-background-color-hover);
+}
+
+.corrections {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.explanation {
+  font-style: italic;
+  color: var(--primary-text-color);
+  margin-top: 10px;
+}

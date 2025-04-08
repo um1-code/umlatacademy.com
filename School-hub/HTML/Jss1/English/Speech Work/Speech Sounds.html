@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>speech Work</title>
+  <link rel="stylesheet" href="/CSS/Subject-Selector/Topic-Selector/Topic/Topics.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3.6.8/dist/plyr.css" />
+
+</head>
+<body>
+    <div class="container">
+        <h2>English JSS1 – Speech Work</h2>
+      
+        <h3>Topic: Speech Sounds</h3>
+      
+        <h3>Learning Objectives</h3>
+        <ul>
+          <li>Identify the different types of speech sounds</li>
+          <li>Distinguish between vowels and consonants</li>
+          <li>Pronounce simple English words correctly</li>
+        </ul>
+      
+        <h3>Introduction</h3>
+        <p>Speech work is the part of English that focuses on how words are pronounced. It involves understanding sounds, stress, and intonation in spoken English.</p>
+      
+        <p><strong>1. What are Speech Sounds?</strong></p>
+        <p>Speech sounds are the sounds we make when speaking. In English, there are two main types:</p>
+        <ul>
+          <li><strong>Vowels:</strong> Sounds made without blocking the air. Examples: /a/, /e/, /i/, /o/, /u/</li>
+          <li><strong>Consonants:</strong> Sounds made when the air is partly or completely blocked. Examples: /b/, /d/, /s/, /k/</li>
+        </ul>
+      
+        <p><strong>2. Examples of Vowel Sounds:</strong></p>
+        <ul>
+            <div class="example">
+                <li>/i:/ – as in “see”</li>
+                <audio src="/Audio/see.mp3" controls id="player"></audio>
+            </div>
+            <div class="example">
+                <li>/ɪ/ – as in “sit”</li>
+                <audio src="/Audio/sit.mp3" controls id="player1"></audio>
+            </div>
+            <div class="example">
+                <li>/æ/ – as in “cat”</li>
+                <audio src="/Audio/cat.mp3" controls id="player2"></audio>
+            </div>
+        </ul>
+      
+        <p><strong>3. Examples of Consonant Sounds:</strong></p>
+        <ul>
+            <div class="example">
+                <li>/p/ – as in “pen”</li>
+                <audio src="/Audio/pen.mp3" controls id="player3"></audio>
+            </div>
+            <div class="example">
+                <li>/t/ – as in “top”</li>
+                <audio src="/Audio/top.mp3" controls id="player4"></audio>
+            </div>
+            <div class="example">
+                <li>/m/ – as in “man”</li>
+                <audio src="/Audio/man.mp3" controls id="player5"></audio>
+            </div>
+        </ul>
+      
+        <p><strong>4. Importance of Correct Pronunciation:</strong></p>
+        <p>Good pronunciation helps others understand you clearly. It is important to listen and practice how native or fluent English speakers talk.</p>
+      
+        <h3>Summary</h3>
+        <p>Speech sounds are divided into vowels and consonants. Practicing these sounds helps improve spoken English and communication skills.</p>
+      
+        <h3>Practice Questions</h3>
+        <ol>
+          <li>What are the two types of speech sounds?</li>
+          <li>Give three examples of vowel sounds.</li>
+          <li>Why is correct pronunciation important?</li>
+        </ol>
+
+        <a href="/HTML/Jss1/English/Speech Work/Organs of speech.html" class="back-btn" >Next →</a>
+        <a href="/HTML/Jss1/English/English-Topics.html" class="back-btn">← Back to English Topics</a>
+        <a href="parts of speach Quiz.html" class="back-btn">Quiz</a>
+
+              <!-- Progress Bar -->
+    <div class="progress-bar-container">
+        <p>Lesson Progress:</p>
+        <div class="progress-bar" id="progress-bar" style="width: 0%;"></div>
+        <button onclick="markLessonComplete()" id="complete-btn" class="back-btn">Mark as Complete</button>
+      </div>
+     
+      </div>   
+  </div>
+
+  <script src="/JS/progress bar.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/plyr@3.6.8/dist/plyr.polyfilled.js"></script>
+  <script>
+    const player = new Plyr('#player');
+    const player1 = new Plyr('#player1');
+    const player2 = new Plyr('#player2');
+    const player3 = new Plyr('#player3');
+    const player4 = new Plyr('#player4');
+    const player5 = new Plyr('#player5');
+  </script>
+
+</body>
+</html>

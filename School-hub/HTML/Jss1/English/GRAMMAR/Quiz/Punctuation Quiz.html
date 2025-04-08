@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Topic Title - JSS1 English</title>
+  <link rel="stylesheet" href="/CSS/Subject-Selector/Topic-Selector/Topic/Quiz-Topics.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Punctuation</h1>
+
+    <!-- Display message if quiz is already taken -->
+    <div id="quiz-taken-message" class="quiz-taken" style="display: none;">
+      You've already completed the quiz. Great job!
+    </div>
+
+    <!-- Timer Section -->
+    <div id="timer" style="display: none;">Answer all questions in: <span id="time-left"> --:-- </span></div>
+
+    <!-- Quiz Section -->
+    <div id="quiz-section" class="quiz-section">
+      <form id="quiz-form">
+        <p>Instruction: Punctuate the following sentences.</p>
+
+
+        
+      </form>
+      <button type="button" class="submit-btn" onclick="submitQuiz()">Submit</button>
+
+    </div>
+
+    <!-- Final Results Screen -->
+    <div id="final-results" class="final-results">
+      <p id="final-score-message"></p>
+      <div id="corrections" class="corrections"></div>
+    </div>
+
+    <div id="quiz-summary"></div>
+    <br>
+    <a href="/HTML/Jss1/English/English-Topics.html" class="back-btn">← Back to Topics</a>
+    <a href="/HTML/Jss1/English/GRAMMAR/Punctuation.html" class="back-btn">← Back to Punctuation</a>
+    <a href="/HTML/Jss1/English/GRAMMAR/Quiz/Punctuation Quiz.html" class="back-btn">Try Again</a>
+  </div>
+
+ 
+  </div>
+
+  <script src="/JS/Jss1/English - Quiz/Parts of speach/Punctuation.js"></script>
+
+</body>
+</html>
